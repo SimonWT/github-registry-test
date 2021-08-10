@@ -15,3 +15,5 @@
 > npm start
 ```
 The application will be served on `:3000`
+
+### Docker
