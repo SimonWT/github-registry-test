@@ -1,0 +1,9 @@
+version: '3'
+services:
+  upload-server:
+    restart: always
+    image: $IMAGE
+    container_name: upload-img
+    build: .
+    ports:
+      - "3030:3000"
