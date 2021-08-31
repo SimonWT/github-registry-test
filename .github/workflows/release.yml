@@ -44,3 +44,8 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+
+      #deploy
+      #- name: Deploy
+      #  run: ssh root:miXohheeL4ph@89.108.64.70 'cd leapper-test; git pull; IMAGE=leappertech/test-server docker-compose up -d'
+
